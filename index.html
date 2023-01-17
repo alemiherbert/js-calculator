@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Calc</title>
+</head>
+<body>
+    <header>
+        <h1>JS Calc</h1>
+        <p>A simple calculator, in JavaScript (buggy as an anthill)</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="calculator">
+                <div class="display">
+                    <div id="op"></div>
+                    <div id="calculation">0</div>
+                </div>
+                <div class="keypad">
+                    <button class="operator" data-operation="clear">C</button>
+                    <button class="operator" data-operation="divide">&#247;</button>
+                    <button class="operator" data-operation="multiply">&times;</button>
+                    <button class="operator" data-operation="subtract">-</button>
+                    <button class="operand">7</button>
+                    <button class="operand">8</button>
+                    <button class="operand">9</button>
+                    <button class="operator" data-operation="add">+</button>
+                    <button class="operand">4</button>
+                    <button class="operand">5</button>
+                    <button class="operand">6</button>
+                    <button class="operator" data-operation="calculate">=</button>
+                    <button class="operand">1</button>
+                    <button class="operand">2</button>
+                    <button class="operand">3</button>
+                    <button class="operand" id="zero">0</button>
+                    <button class="operator" data-operation="decimal">.</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Alemi Herbert 2023</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
